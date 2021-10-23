@@ -1,0 +1,42 @@
+body{
+    position: static;
+}
+.cal{ 
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    color: rgb(0, 0, 0);
+    width: 600px;
+    height: 600px;
+    background-color: rgb(207, 253, 146);
+    border: 5px solid rgb(255, 169, 233);
+}
+img{
+          
+    max-width: 250px;
+    margin: 4% auto;
+}
+.p1{
+    font-style: italic;
+    margin: auto;
+    font-size: large;
+    font-family: serif;
+}
+.date{
+   
+    font-weight: bold;
+}
+.count{
+    width: inherit;
+    margin: auto; 
+    padding: 2%;
+   font-size: 1.2em;
+    font-weight: bold;
+    font-style: italic;  
+    border-top: 2px solid rgb(255, 169, 233);
+    border-bottom: 2px solid rgb(255, 169, 233);
+
+}
+.box{
+    color: red;
+}
